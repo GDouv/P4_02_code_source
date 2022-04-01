@@ -1046,3 +1046,37 @@ h4 {
 .font-size-up {
     font-size: 18px;
 }
+
+.font-size-up p {
+    font-size: 19px;
+}
+
+mark {
+    font-style: italic;
+    background: none;
+}
+
+input:invalid {
+    background-color: #ffbfbf;
+}
+  
+input:valid {
+    background-color: #ddffdd;
+}
+
+input:required {
+    border-color: transparent;
+    border-width: 2px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+textarea:invalid {
+    border: 2px #ffbfbf solid;
+}
+
+textarea:valid {
+    border: 2px #ddffdd solid;
+}
