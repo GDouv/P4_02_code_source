@@ -1028,6 +1028,13 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .padding-0 {
+        padding: 0;
+    }
+
+    .margin-rl-10 {
+        margin: 0 10px 0 10px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1049,6 +1056,14 @@ h4 {
 
 .font-size-up p {
     font-size: 19px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-15 {
+    font-size: 15px;
 }
 
 mark {
@@ -1087,6 +1102,26 @@ textarea:valid {
     justify-content: center;
 }
 
-.margin-rl {
+@media screen and (min-width: 767px) {
+    .margin-rl {
     margin: 0 35px 0 35px;
+    }
+}
+
+
+.col-sm-4 p {
+    font-size: 13px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.width-98 {
+    width: 98%;
+}
+
+.margin-t {
+    margin-top: 10px;
 }
